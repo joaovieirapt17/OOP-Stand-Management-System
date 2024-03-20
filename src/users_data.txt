@@ -1,0 +1,24 @@
+----- USER -----
+Username: admin
+Password: admin
+Name: admin
+NIF: 0
+Balance: 0
+Role: admin
+
+----- USER -----
+Username: gestor
+Password: gestor
+Name: gestor
+NIF: 0
+Balance: 0
+Role: manager
+
+----- USER -----
+Username: cliente
+Password: cliente
+Name: cliente
+NIF: 0
+Balance: 0
+Role: client
+

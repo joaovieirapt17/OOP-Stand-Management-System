@@ -1,0 +1,5 @@
+Brand,Year,Type,PrimaryFuelType,SecondaryFuelType,MotorType,HasFairing,MotorPower,MotorPower2,MotorCapacity,MotorCapacity2,Price,StandCode
+Toyota,2022,sedan,lpg,electric,hybrid,true,150,50,2000,300,30000,AB01
+Honda,2021,motorcycle,gasoline,lpg,combustion,false,80,0,1000,0,8000,BA01
+Ford,2023,coupe,diesel,diesel,combustion,false,120,0,1800,0,25000,AB02
+Honda,2022,sedan,lpg,none,combustion,true,150,50,2000,300,30000,BB01

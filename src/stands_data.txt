@@ -1,0 +1,17 @@
+--------------------- STAND ---------------------
+City Name: Barcelos
+Number: 1
+----- VEHICLE -----
+Vehicle ID: 1
+License Plate Year: 2023
+Brand: BMW
+Price: 50000
+MotorType: hybrid
+FuelType: gasoline
+Secondary FuelType: electric
+Vehicle Type: coupe
+Motor 1: 250 Cv
+Capacity 1: 800 liters
+Electric Motor: 110.325 kW
+Capacity 2: 100 kWh
+

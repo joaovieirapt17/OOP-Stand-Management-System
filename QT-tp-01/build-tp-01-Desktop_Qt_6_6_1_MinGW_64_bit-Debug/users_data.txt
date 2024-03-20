@@ -1,0 +1,16 @@
+----- USER -----
+Username: testuser
+Password: password123
+Name: Test User
+NIF: 123456789
+Balance: 100
+Role: admin
+
+----- USER -----
+Username: admin
+Password: admin
+Name: Test User
+NIF: 123456789
+Balance: 100
+Role: admin
+
