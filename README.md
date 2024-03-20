@@ -1,118 +1,95 @@
-# Sistema de gestão de stands e venda de veículos
+# Car dealership and sales management system
 
-Este trabalho da unidade curricular de Programação Orientada a Objetos (POO) foca o
-desenvolvimento de uma aplicação na linguagem de programação C++, seguindo as boas práticas que o paradigma POO sugere.
+This work from the Object-Oriented Programming (OOP) course focuses on the
+development of an application in the C++ programming language, following the good practices that the OOP paradigm suggests.
 
-## Tema do Trabalho
+## Work topic
 
-Desenvolvimento de um sistema de gestão de stands de venda de veículos. Serão disponibilizados os
-detalhes para cada fase de entrega do trabalho.
-O trabalho será desenvolvido em três fases.
+Development of a vehicle sales stand management system. The
+details for each phase of the work will be provided.
+The work will be carried out in three phases.
 
-**Fase 1:** Modelação e implementação das classes que permitam representar a lógica de funcionamento da aplicação.
+**Phase 1:** Modeling and implementation of classes to represent the application's operating logic.
 
-**Fase 2:** Completar a solução com classes para facilitar a sua manutenção.
+**Phase 2:** Completing the solution with classes to make it easier to maintain.
 
-**Fase 3:** Criação de uma interface gráfica em QT.
+**Phase 3:** Creation of a graphical interface in QT.
 
-### Estrutura do Projeto
+### Project structure
 
-- **`/src`:** Contém o código-fonte da aplicação.
-- **`/docs`:** Documentação do projeto.
-- **`/images`:** Imagens do projeto
+- **`/src`:** Contains the application's source code.
+- **`/docs`:** Project documentation.
+- **`/images`:** Project images
 
-### Como Iniciar
+### How to get started
 
-#### Pré-requisitos
+#### Prerequisites
 
-Certifique-se de ter instalado:
+Make sure you have installed:
 
-1. **Compilador C++:**
-   - Recomendado: GCC, [Visual Studio](https://visualstudio.microsoft.com/), ou outro de sua escolha.
-2. **Gerenciador de Versões (opcional):**
-   - Recomendado: [Git](https://git-scm.com/).
+1. **C++ compiler
+ - Recommended: GCC, [Visual Studio](https://visualstudio.microsoft.com/), or another of your choice.
+2. **Version Manager (optional):**
+ - Recommended: [Git](https://git-scm.com/).
 
-#### Instalação
+#### Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/EECPOO2324/tp-01.git
-   ```
+ ```bash
+ git clone https://github.com/EECPOO2324/tp-01.git
+ ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
-   ```bash
-   cd tp-01/src
-   ```
+ ```bash
+ cd tp-01/src
+ ```
 
-3. Compile o código-fonte:
+3. Compile the source code:
 
-   ```bash
-   g++ -o main main.cpp
-   ```
+ ```bash
+ g++ -o main main.cpp
+ ```
 
-4. Execute o aplicativo:
+4. Run the application:
 
-   ```bash
-   ./main
-   ```
+ ```bash
+ ./main
+ ```
 
-# Utilização Inicial
+## Main features
 
-Para utilizar o sistema de gestão de stands e venda de veículos, o arquivo "users_data.txt" já contém 3 utilizadores com as respetivas funções (administrador, gestor e cliente). Isso facilitará o teste do sistema pelo professor. Aqui estão os detalhes:
+### 1. User Authentication
 
-## Administrador:
+- Start Menu: Displays options for user authentication.
+- **Login:** Allows users to access the system with their credentials.
 
-- **Username:** admin
-- **Password:** admin
+### 2. Administration
 
-## Gestor:
+- **Administrator Management:** Allows administrators to be created, edited, listed and removed.
+- **Managers Management:** Allows managers to be created, edited, listed and removed.
 
-- **Username:** gestor
-- **Password:** gestor
+### 3. Customer Management
 
-## Cliente:
+- **Customer creation:** Allows new customers to be created.
+- **Client Editing:** Allows you to edit existing client data.
+- **Client List:** Displays a list of registered clients.
+- **Client Removal:** Allows clients to be removed from the system.
 
-- **Username:** cliente
-- **Password:** cliente
+### 4. Stand and Vehicle Management
 
-## Stands e Veículos:
-Deixamos por defeito o ficheiro "stands_data.txt" para o programa iniciar sem dar erro ao abrir o ficheiro. Dependendo do IDE, poderá não estar a abrir bem o ficheiro, pois depende muito de qual é o diretório a qual o IDE irá buscar os ficheiros, portanto aconselhamos a criar um stand individualmente e então posteriormente será criado o respetivo ficheiro no diretório default do seu IDE.
-Para testar a leitura dos dados CSV deixamos também o ficherio "stands.csv" e também segue a mesma lógica do anterior, tera de verificar qual o diretório default que o seu IDE abre os ficheiros de leitura.
+- **Stands Creation:** Allows the creation of new stands.
+- **Vehicle Creation:** Allows new vehicles to be added to a stand.
+- **Vehicle Movement:** Facilitates the transfer of vehicles between stands.
+- **Vehicle Removal:** Allows you to remove vehicles from a stand.
+- **Vehicle Data Editing:** Allows you to edit existing vehicle information.
 
-## Funcionalidades Principais
+### 5. Customer Menu
 
-### 1. Autenticação de Utilizador
-
-- **Menu Inicial:** Apresenta opções para autenticação de utilizadores.
-- **Login:** Permite que utilizadores acedam ao sistema com as suas credenciais.
-
-### 2. Administração
-
-- **Gestão de Administradores:** Permite a criação, edição, listagem e remoção de administradores.
-- **Gestão de Gestores:** Permite a criação, edição, listagem e remoção de gestores.
-
-### 3. Gestão de Clientes
-
-- **Criação de Clientes:** Permite a criação de novos clientes.
-- **Edição de Clientes:** Permite a edição de dados de clientes existentes.
-- **Listagem de Clientes:** Apresenta uma lista de clientes registados.
-- **Remoção de Clientes:** Permite a remoção de clientes do sistema.
-
-### 4. Gestão de Stands e Veículos
-
-- **Criação de Stands:** Permite a criação de novos stands.
-- **Criação de Veículos:** Permite a adição de novos veículos a um stand.
-- **Movimentação de Veículos:** Facilita a transferência de veículos entre stands.
-- **Remoção de Veículos:** Permite a remoção de veículos de um stand.
-- **Edição de Dados de Veículos:** Permite a edição de informações de veículos existentes.
-
-### 5. Menu do Cliente
-
-- **Edição de Dados Pessoais:** Permite que o cliente edite os seus próprios dados.
-- **Listagem de Veículos num Stand:** Apresenta a lista de veículos disponíveis num stand.
-- **Listagem de Stands por Cidade:** Exibe a lista de stands por cidade.
-- **Compra de Veículos:** Inicia o processo de compra de um veículo.
-- **Histórico de Compras do Cliente:** Mostra o histórico de compras do cliente.
-- **Alteração de Saldo do Cliente:** Permite a alteração do saldo do cliente.
+- **Personal Data Editing:** Allows the customer to edit their own data.
+- **List of Vehicles at a Dealership:** Displays the list of vehicles available at a dealership.
+- **List of Stands by City:** Displays the list of stands by city.
+- **Vehicle Purchase:** Starts the process of purchasing a vehicle.
+- **Customer Purchase History:** Displays the customer's purchase history.
+- **Customer Balance Change:** Allows you to change the customer's balance.
